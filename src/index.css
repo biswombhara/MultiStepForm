@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mathCard{
+    @apply h-52 w-52 mr-3 border rounded-md outline-black border hover:border-orange-500 hover:shadow-md ;
+}

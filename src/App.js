@@ -1,10 +1,8 @@
-import DemoComponent from "./DemoComponent";
-
-
+import Form from "./Form";
 function App() {
   return (
     <div>
-   <DemoComponent />
+   <Form />
     </div>
   );
 }
