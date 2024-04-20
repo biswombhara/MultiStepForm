@@ -5,3 +5,12 @@
 .mathCard{
     @apply h-52 w-52 mr-3 border rounded-md outline-black border hover:border-orange-500 hover:shadow-md ;
 }
+.is:focus{
+    background-color: red;
+}
+.check-box{
+    @apply p-4 rounded-md border hover:border-orange-300 my-2 focus:outline-none focus:ring focus:ring-violet-300 w-[35rem];
+}
+.list-icon{
+    @apply mr-6 max-w-10 inline;
+}

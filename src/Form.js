@@ -12,12 +12,12 @@ export default function Form(){
     let form = [ 
     <Profession/>, <Interest/>, <RightPlace/>, <Math/>, <OnYourWay/>, <Finding/>,<Learning/>
     ];
-    // if(Page==5){
-    //     setTimeout( ()=>{
-    //         setPage(6);
-    //     },5000);
-    // }
-    let bar = [ "10%", "20%", "40%", "60%", "100%"]
+    if(Page===5){
+        setTimeout( ()=>{
+            setPage(6);
+        },4000);
+    }
+    let bar = [ "w-[10%]", "w-[20%]", "w-[40%]", "w-[60%]", "w-[100%]"]
     let Submit = () => {
         setPage( (Page) => {
             return Page+=1;
@@ -31,13 +31,13 @@ export default function Form(){
     }
     
     //{}
-    return <div className="flex border mx-auto w-10/12 flex-col items-center">
+    return <div className="flex mx-auto w-10/12 flex-col items-center">
         <div className={Page>4? "hidden":"flex items-center"}>
             <div onClick={Prev} className=" cursor-pointer">
-                <i className={Page==0?"hidden":"fa-solid mr-2 fa-chevron-left"}></i>
+                <i className={Page===0?"hidden":"fa-solid mr-2 fa-chevron-left"}></i>
             </div>
             <div className="w-[83vw] my-10 border rounded-md h-1 bg-slate-200">
-                <div className={`w-[${bar[0]}]` + " bg-green-700 relative bottom-[0.05rem] h-1"}>
+                <div className={`${bar[Page]} bg-green-700 relative bottom-[0.05rem] h-1 transition-all`}>
                 
                 </div>
             </div>

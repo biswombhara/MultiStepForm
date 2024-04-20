@@ -1,5 +1,5 @@
 export default function OnYourWay(){
-    return <div className="flex justify-around items-center">
+    return <div className="flex my-16 justify-around items-center">
     <img className="h-72" 
     src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8NqAt8wr2X1-1tHKicU95ajFQheVJM1IOWlX0sDQVDgkPp5jXS_TfVHR4D3oiAEFkxUbE5iCIoaDv47pxCsPYx9RtZ4is9wjLTvyVuNxFlwgU3l0J0z6GRZPtrc1Yu9dDUaHC4RTISGstdYGGxAnbqA-M-aHBOYZtKyy-txXOUoHbAg8zTL9ezyRbxw8/s320/way.jpg"></img>
 <div className="w-2/5 mx-20">
