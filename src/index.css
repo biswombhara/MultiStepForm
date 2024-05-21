@@ -3,14 +3,19 @@
 @tailwind utilities;
 
 .mathCard{
-    @apply h-52 w-52 mr-3 border rounded-md outline-black border hover:border-orange-500 hover:shadow-md ;
+    @apply h-52 w-52 mr-3 mb-3 border rounded-md outline-black border hover:border-orange-500 hover:shadow-md max-sm:w-[7.5rem] max-sm:h-[7.5rem];
 }
 .is:focus{
     background-color: red;
 }
 .check-box{
-    @apply p-4 rounded-md border hover:border-orange-300 my-2 focus:outline-none focus:ring focus:ring-violet-300 w-[35rem];
+    @apply p-4 rounded-md border hover:border-orange-300 my-2 focus:outline-none focus:ring focus:ring-violet-300 w-[35rem]  max-sm:w-[19rem] max-sm:p-[0.75rem] ;
 }
+
+.check-box label{
+    @apply max-sm:text-sm ;
+}
+
 .list-icon{
-    @apply mr-6 max-w-10 inline;
+    @apply mr-6 max-w-8 inline max-sm:w-5 max-sm:mr-3;
 }

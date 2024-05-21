@@ -1,8 +1,8 @@
 export default function Profession(){
     return <>
-        <h1 className="text-3xl"><b>Which describes you best?</b></h1>
-        <p className="mb-8 mt-6">This will help us get you personalize your experience.</p>
-        <form>
+        <h1 className="text-3xl text-center max-sm:text-2xl"><b>Which describes you best?</b></h1>
+        <p className="my-4 max-sm:text-center max-sm:text-sm">This will help us get you personalize your experience.</p>
+        <form className="max-sm:my-[-0.8rem]">
             <div className="check-box">
                 <img className="list-icon" src="https://cdn4.iconfinder.com/data/icons/professions-bzzricon-flat/512/25_Student-512.png"></img>
                 <input type="radio" className="hidden" id="one" name="experience" />

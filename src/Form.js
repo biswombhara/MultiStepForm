@@ -36,7 +36,7 @@ export default function Form(){
             <div onClick={Prev} className=" cursor-pointer">
                 <i className={Page===0?"hidden":"fa-solid mr-2 fa-chevron-left"}></i>
             </div>
-            <div className="w-[83vw] my-10 border rounded-md h-1 bg-slate-200">
+            <div className="w-[83vw] my-5 border rounded-md h-1 bg-slate-200">
                 <div className={`${bar[Page]} bg-green-700 relative bottom-[0.05rem] h-1 transition-all`}>
                 
                 </div>
@@ -45,7 +45,7 @@ export default function Form(){
         {form[Page]}
         <div className={Page>4? "":""}>
             <button disabled={Page<=0? false:false} 
-            className={Page<=4?"bg-black px-16 py-2 rounded-lg text-white     text-xl my-4 mx-auto w-fit":"hidden"} onClick={Submit}>Submit</button>
+            className={Page<=4?"bg-black px-16 py-2 rounded-lg text-white text-xl my-4 mx-auto w-fit max-sm:scale-[.8] max-sm:mb-0":"hidden"} onClick={Submit}>Submit</button>
         </div>        
     </div>
 }

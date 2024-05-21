@@ -1,7 +1,7 @@
 export default function Interest(){
     return <>
-        <h1 className="text-3xl font-bold">Which are you most interested in?</h1>
-        <p className="mb-8 mt-6">Choose just one. This will help us get you started (but won't limit your experience).</p>
+        <h1 className="text-3xl text-center max-sm:text-2xl"><b>Which are you most interested in?</b></h1>
+        <p className="my-4 max-sm:text-center max-sm:text-sm">Choose just one. This will help us get you started (but won't limit your experience).</p>
         <form>
             <div className="check-box">
                 <img className="list-icon" src="https://media.tenor.com/H2v8kjkZIsgAAAAi/chart-increasing-objects.gif"></img>
