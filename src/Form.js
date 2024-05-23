@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import Profession from "./components/Profession";
 import Interest from "./components/Interest";
 import RightPlace from "./components/RightPlace";
@@ -30,7 +29,6 @@ export default function Form(){
         console.log(Page)
     }
     
-    //{}
     return <div className="flex mx-auto w-10/12 flex-col items-center">
         <div className={Page>4? "hidden":"flex items-center"}>
             <div onClick={Prev} className=" cursor-pointer">
